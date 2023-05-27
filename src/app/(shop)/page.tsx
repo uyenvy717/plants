@@ -9,7 +9,7 @@ import hero from "@/public/hero.png";
 
 export default function Home() {
   return (
-    <div className="w-full h-full overflow-hidden">
+    <div className="w-full h-full">
       <SplitScreen>
         <CTASlogan></CTASlogan>
         <Image

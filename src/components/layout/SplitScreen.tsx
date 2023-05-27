@@ -16,9 +16,9 @@ export const SplitScreen = ({
   const [left, middle, right] = Children.toArray(children);
   return (
     <div className={`flex w-full ${className}`}>
-      <div style={{ flex: `${leftWidth}` }}>{left}</div>
-      <div style={{ flex: `${middleWidth}` }}>{middle}</div>
-      <div style={{ flex: `${rightWidth}` }}>{right}</div>
+      <div className="flex place-content-center" style={{ flex: `${leftWidth}` }}>{left}</div>
+      <div className="flex place-content-center" style={{ flex: `${middleWidth}` }}>{middle}</div>
+      <div className="flex place-content-center" style={{ flex: `${rightWidth}` }}>{right}</div>
     </div>
   );
 };
